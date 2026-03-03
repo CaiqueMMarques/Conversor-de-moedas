@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto Condensed", sans-serif;
+}
+body {
+    width: auto;
+    height: 100vh;
+    background-color: #8B51FD;
+}
+.money-gif {
+    width: 150px;
+    display: block;
+    margin: 20px auto;
+}
+main {
+    background-color: white;
+    width: 330px;
+    margin: 0 auto;
+    border-radius: 20px;
+    padding: 20px;
+}
+label {
+    color: #777777;
+    font-size: 14px;
+    font-weight: 400;
+    margin: 16px 0 8px 0;
+    display: block;
+}
+select {
+    width: 100%;
+    height: 48px;
+    display: block;
+    margin-top: 3px;
+    border-radius: 4px;
+    background-color: #FFFFFF;
+    border:1px solid #BBBBBB;
+    font-size: 16px;
+    font-weight: 700;
+    padding-left: 10px;
+    color: #555555;
+}
+input {
+    width: 100%;
+    height: 48px;
+    border-radius: 4px;
+    background-color: #FFFFFF;
+    border:1px solid #BBBBBB;
+    font-size: 16px;
+    font-weight: 700;
+    padding-left: 10px;
+    color: #555555;
+    outline: none;
+}
+input::placeholder {
+    color: #555555;
+    font-size: 16px;
+}
+.convert-button {
+    width: 100%;
+    height: 48px;
+    border-radius: 4px;
+    display: block;
+    margin: 20px auto;
+    background-color: #772fd3;
+    color:#FFFFFF;
+    font-size: 18px;
+    font-weight: 700;
+    border: none;
+    cursor: pointer;
+    outline: none;
+}
+.convert-button:hover {
+    background-color: #5e1fa9;
+}
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid #772fd3;
+    border-radius: 20px;
+    padding: 5px 0 5px 0; 
+}
+.arrow {
+    margin: 16px 0;
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+}
