@@ -28,7 +28,7 @@ label {
     margin: 16px 0 8px 0;
     display: block;
 }
-select {
+.select-convert, .select-option {
     width: 100%;
     height: 48px;
     display: block;
@@ -41,7 +41,7 @@ select {
     padding-left: 10px;
     color: #555555;
 }
-input {
+.money {
     width: 100%;
     height: 48px;
     border-radius: 4px;
@@ -53,7 +53,7 @@ input {
     color: #555555;
     outline: none;
 }
-input::placeholder {
+.money::placeholder {
     color: #555555;
     font-size: 16px;
 }
@@ -90,4 +90,79 @@ section {
     flex-direction: column;
     align-items: center;
     gap: 4px;
+}
+
+@media (max-width: 920px) {
+    body {
+        width: auto;
+        background-color: #8B51FD;
+    }
+
+    main {
+        width: 80%;
+        margin: 0 auto;
+        padding: 2px 20px 20px 20px;
+    }
+
+    .money-gif {
+        width: 120px;
+        display: block;
+        margin: 10px auto;
+    }
+    
+    label {
+        color: #777777;
+        font-size: 16px;
+        font-weight: 400;
+        margin: 16px 0 8px 0;
+        display: block;
+    }
+
+    .select-convert, .select-option {
+        width: 100%;
+        height: 50px;
+        display: block;
+        margin-top: 3px;
+        border-radius: 4px;
+        background-color: #FFFFFF;
+        border:1px solid #BBBBBB;
+        font-size: 18px;
+        font-weight: 700;
+        padding-left: 10px;
+        color: #555555;
+    }
+
+    .money {
+        width: 100%;
+        height: 50px;
+        border-radius: 4px;
+        background-color: #FFFFFF;
+        border:1px solid #BBBBBB;
+        font-size: 18px;
+        font-weight: 700;
+        padding-left: 10px;
+        color: #555555;
+        outline: none;
+    }
+
+    .money::placeholder {
+        color: #555555;
+        font-size: 18px;
+    }
+
+    .convert-button {
+        width: 100%;
+        height: 50px;
+        border-radius: 4px;
+        display: block;
+        margin: 16px auto;
+        background-color: #772fd3;
+        color:#FFFFFF;
+        font-size: 18px;
+        font-weight: 700;
+        border: none;
+        cursor: pointer;
+        outline: none;
+    }
+
 }
