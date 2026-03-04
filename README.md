@@ -1,6 +1,6 @@
 <h1 align="center">Conversor de moedas</h1>
 <h2>Meu primeiro projeto do curso DevClub utilizando o JavaScript.
-Um conversor de moedas, simples. Porém aprendi muito com esse projeto, usei muito minha lógica de programação.
+Um conversor de moedas, simples. Porém aprendi muito com esse projeto, usei muito minha lógica de programação. Fui além do desafio pedido pelo curso, que era apenas da moeda real para o dolar e o euro. O conversor está funcional em todas as moedas disponíveis.
 É apenas o começo!                                                                                                                   
 <br>
 <h2>Linguagens utilizadas</h2>
